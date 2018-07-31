@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Picker from './picker';
+import Button from './button';
 
 export default class App extends Component {
   render() {
@@ -9,6 +10,7 @@ export default class App extends Component {
         <p className = 'grid__subtitle'>You can also countdown from whatever you please</p>
       
         <Picker/>
+        { Button('Start Countdown') }
       </div>
     );
   }

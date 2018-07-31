@@ -9,7 +9,8 @@ body {
 
     &__title {
         display:grid;
-        color: white;
+        font-size: 50px;
+        color: #c2caef;
         margin-left: 50px;
         font-family: 'Eczar', serif;
         display: inline-block;
@@ -21,10 +22,11 @@ body {
         display: inline-block;
         margin-left: 50px;
         margin-top: 10px;
-        color: #dbdbdb;
+        color: #c2caef;
         font-family: 'Roboto', sans-serif;
     }
 }
 
 
 @import 'picker';
+@import 'button';
