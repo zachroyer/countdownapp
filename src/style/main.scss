@@ -5,19 +5,22 @@ body {
 
 .grid {
     display: grid;
-    align-items: center;
     margin-top: 50px;
 
     &__title {
         display:grid;
         color: white;
+        margin-left: 50px;
         font-family: 'Eczar', serif;
-        align-self: center;
-        text-align: center;
+        display: inline-block;
     }
 
     &__subtitle {
-        text-align: center;
+        text-align: left;
+        font-size: 12px;
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 10px;
         color: #dbdbdb;
         font-family: 'Roboto', sans-serif;
     }

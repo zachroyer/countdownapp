@@ -1,4 +1,26 @@
 .picker {
     background-color: #1d1d1e;
     color: white;
+    
+    margin: auto;
+    margin-top: 70px;
+    font-size: 80px;
+    
+    font-family: 'Eczar', serif;
+    font-weight: bold;
+
+    input {
+        text-align: center;
+        color: white;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid #D4AF37;
+        font-size: 80px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+
+        &:focus {
+            outline: none;
+        }
+    }
 } 
