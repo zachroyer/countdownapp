@@ -1,0 +1,27 @@
+body {
+    background-color: #1d1d1e;
+    z-index: -1;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    margin-top: 50px;
+
+    &__title {
+        display:grid;
+        color: white;
+        font-family: 'Eczar', serif;
+        align-self: center;
+        text-align: center;
+    }
+
+    &__subtitle {
+        text-align: center;
+        color: #dbdbdb;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+@import 'picker';
