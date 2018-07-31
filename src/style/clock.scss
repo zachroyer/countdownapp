@@ -1,0 +1,9 @@
+.clock {
+    background-color: #375cd4;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    
+    -webkit-clip-path: polyon(7% 0, 100% 0, 93% 100%, 0% 100%);
+    clip-path: polyon(7% 0, 100% 0, 93% 100%, 0% 100%);
+}
