@@ -25,10 +25,20 @@ body {
         color: #c2caef;
         font-family: 'Roboto', sans-serif;
     }
+
+    &__remaining {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+
+    }
 }
 
 
 @import 'picker';
 @import 'button';
 @import 'clock';
-@import 'changeDate'
+@import 'changeDate';
+@import 'largeText';

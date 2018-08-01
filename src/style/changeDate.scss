@@ -1,5 +1,5 @@
 .change-date {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 19px;
     text-align: center;
     color: white;
@@ -11,8 +11,13 @@
     
     transform: rotate(90deg) translate(-100px, -520px);
 
+    &:focus {
+        outline: none;
+    }
+
     i {
         padding-right: 7px;
+        color: #D4AF37;
     }
     
 }
